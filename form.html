@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>forms</title>
+</head>
+<body>
+    <table cellspacing="50px"><tr>
+        <td>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg" alt="Image cannot be displayed" align="left"  length="1600" width="800">
+        </td>
+    <td><h1 style="text-align: right; width: 100%;">Doctor Appointment Form</h1>
+    <hr color="red">
+    <form align="left">
+        <label for="AP_Date">Appointment Date :- </label>
+        <input type="date" id="AP_Date" name="AP_Date" placeholder="mm/dd/yyyy">
+        <br><br>
+
+        <label for="AP_Time">Appoint time :-</label>
+        <input type="time" id="AP_Time" name="AP_Time" placeholder="--: -- --">
+        <br><br>
+
+          <label for="FNAME">Name :-</label>
+        <input type="text" id="FName" name="FName" placeholder="First">
+        <label for="LNAME"></label>
+        <input type="text" id="LName" name="LName" placeholder="Last">
+        <br><br>
+
+          <label for="Gender">Gender:-</label>
+        <input type="radio" id="Gender" name="Gender" value="Male">Male
+        <input type="radio" id="Gender" name="Gender" value="Female">Female
+        <br><br>
+
+        <label for="Phone">Phone:-</label>
+        <input type="number" id="Phone" name="Phone" placeholder="##########">
+        <br><br>
+
+        <label for="CAddress">Address:-</label>
+        <input type="text" id="CAddress" name="CAddress" placeholder="City">
+        <label for="SAddress"></label>
+        <input type="text" id="SAddress" name="SAddress" placeholder="State">
+        <br><br>
+
+        <label>Your Query</label>
+        <textarea rows="4" cols="30"></textarea>
+        <br><br>
+
+        <label for="AP_Type">Appointment Type:-</label> <p>Select which appointment type(s) you require</p>
+        <input type="checkbox" id="AP_Type" name="AP_Tyme" value="cervix checkup">cervix checkup<br>
+        <input type="checkbox" id="AP_Type" name="AP_Tyme" value="Heart checkup">Heart checkup<br>
+        <input type="checkbox" id="AP_Type" name="AP_Tyme" value="Eye checkup">Eye checkup<br>
+        <input type="checkbox" id="AP_Type" name="AP_Tyme" value="Hearing test">Hearing test<br>
+        <br><br> 
+        <button>Send</button>
+    </td>
+    </tr>
+    </form>
+</body>
+</html>
